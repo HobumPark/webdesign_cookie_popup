@@ -69,6 +69,7 @@ function popup(){
     if ($.cookie("popup") == "no") {
         //popup이라는 이름의 쿠키 값이 none이라면
         $("#popup").hide();
+        return
     }
         $("#popup").show()
         //팝업은 시작하자마자 보여주게...하고
